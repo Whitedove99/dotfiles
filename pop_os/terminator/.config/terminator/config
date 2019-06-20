@@ -1,0 +1,198 @@
+[global_config]
+  title_hide_sizetext = True
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  title_font = "Source Code Pro Black, Bold Italic 72"
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    cursor_shape = underline
+    cursor_color = "#aaaaaa"
+    font = "Source Code Pro Semibold, Semi-Bold 11"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[AlienBlood]]
+    background_color = "#0f1610"
+    cursor_color = "#73fa91"
+    foreground_color = "#637d75"
+    palette = "#112616:#7f2b27:#2f7e25:#717f24:#2f6a7f:#47587f:#327f77:#647d75:#3c4812:#e08009:#18e000:#bde000:#00aae0:#0058e0:#00e0c4:#73fa91"
+  [[AdventureTime]]
+    cursor_color = "#aaaaaa"
+  [[Afterglow]]
+    icon_bell = False
+    background_color = "#212121"
+    cursor_shape = underline
+    cursor_color = "#d0d0d0"
+    foreground_color = "#d0d0d0"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+  [[3024 Night]]
+    icon_bell = False
+    background_color = "#090300"
+    cursor_shape = underline
+    cursor_color = "#a5a2a2"
+    foreground_color = "#a5a2a2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+  [[ayu_light]]
+    icon_bell = False
+    background_color = "#fafafa"
+    cursor_shape = underline
+    cursor_color = "#ff6a00"
+    foreground_color = "#5c6773"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff3333:#86b300:#f29718:#41a6d9:#f07178:#4dbf99:#ffffff:#323232:#ff6565:#b8e532:#ffc94a:#73d8ff:#ffa3aa:#7ff1cb:#ffffff"
+  [[ayu]]
+    icon_bell = False
+    background_color = "#0f1419"
+    cursor_shape = underline
+    cursor_color = "#f29718"
+    foreground_color = "#e6e1cf"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff3333:#b8cc52:#e7c547:#36a3d9:#f07178:#95e6cb:#ffffff:#323232:#ff6565:#eafe84:#fff779:#68d5ff:#ffa3aa:#c7fffd:#ffffff"
+  [[AtomOneLight]]
+    icon_bell = False
+    background_color = "#f9f9f9"
+    cursor_shape = underline
+    cursor_color = "#bbbbbb"
+    foreground_color = "#2a2c33"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#de3e35:#3f953a:#d2b67c:#2f5af3:#950095:#3f953a:#bbbbbb:#000000:#de3e35:#3f953a:#d2b67c:#2f5af3:#a00095:#3f953a:#ffffff"
+  [[Cobalt Neon]]
+    icon_bell = False
+    background_color = "#142838"
+    cursor_shape = underline
+    cursor_color = "#c4206f"
+    font = Fira Code 12
+    foreground_color = "#8ff586"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#142631:#ff2320:#3ba5ff:#e9e75c:#8ff586:#781aa0:#8ff586:#ba46b2:#fff688:#d4312e:#8ff586:#e9f06d:#3c7dd2:#8230a7:#6cbc67:#8ff586"
+    use_system_font = False
+  [[Firewatch]]
+    icon_bell = False
+    background_color = "#1e2027"
+    cursor_shape = underline
+    cursor_color = "#f6f7ec"
+    foreground_color = "#9ba2b2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#585f6d:#d95360:#5ab977:#dfb563:#4d89c4:#d55119:#44a8b6:#e6e5ff:#585f6d:#d95360:#5ab977:#dfb563:#4c89c5:#d55119:#44a8b6:#e6e5ff"
+  [[Aco]]
+    icon_bell = False
+    background_color = "#1f1305"
+    cursor_shape = underline
+    cursor_color = "#bae2fb"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#b4e1fd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#3f3f3f:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#bebebe:#474747:#ff1e8e:#8eff1e:#ff8e1e:#0883ff:#8e1eff:#1eff8e:#c4c4c4"
+  [[Bim]]
+    icon_bell = False
+    background_color = "#012849"
+    cursor_shape = underline
+    cursor_color = "#c4d0de"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#a9bed8"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#2c2423:#f557a0:#a9ee55:#f5a255:#5ea2ec:#a957ec:#5eeea0:#918988:#918988:#f579b2:#bbee78:#f5b378:#81b3ec:#bb79ec:#81eeb2:#f5eeec"
+  [[Cobalt2]]
+    icon_bell = False
+    background_color = "#132738"
+    cursor_shape = underline
+    cursor_color = "#f0cc09"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
+  [[Gruvbox Dark]]
+    icon_bell = False
+    background_color = "#1e1e1e"
+    cursor_shape = underline
+    cursor_color = "#bbbbbb"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+  [[FirefoxDev]]
+    icon_bell = False
+    background_color = "#0e1011"
+    cursor_shape = underline
+    cursor_color = "#708284"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#7c8fa4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#002831:#e63853:#5eb83c:#a57706:#359ddf:#d75cff:#4b73a2:#dcdcdc:#204a87:#e1003f:#1d9000:#cd9409:#006fc0:#a200da:#005794:#e2e2e2"
+  [[Blazer]]
+    icon_bell = False
+    background_color = "#0d1926"
+    cursor_shape = underline
+    cursor_color = "#d9e6f2"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#d9e6f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#b87a7a:#7ab87a:#b8b87a:#7a7ab8:#b87ab8:#7ab8b8:#d9d9d9:#262626:#dbbdbd:#bddbbd:#dbdbbd:#bdbddb:#dbbddb:#bddbdb:#ffffff"
+    use_system_font = False
+  [[ForestBlue]]
+    icon_bell = False
+    background_color = "#051519"
+    cursor_shape = underline
+    cursor_color = "#9e9ecb"
+    font = "Source Code Pro Medium, Bold 10"
+    foreground_color = "#e2d8cd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#333333:#f8818e:#92d3a2:#1a8e63:#8ed0ce:#5e468c:#31658c:#e2d8cd:#3d3d3d:#fb3d66:#6bb48d:#30c85a:#39a7a2:#7e62b3:#6096bf:#e2d8cd"
+    use_system_font = False
+  [[Aci]]
+    cursor_color = "#aaaaaa"
+  [[Duotone Dark]]
+    cursor_color = "#aaaaaa"
+  [[PencilDark]]
+    icon_bell = False
+    background_color = "#1e1f28"
+    cursor_shape = underline
+    cursor_color = "#20bbfc"
+    cursor_color_fg = False
+    font = "Source Code Pro Semibold, Semi-Bold 12"
+    foreground_color = "#f1f1f1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#212121:#c30771:#10a778:#a89c14:#008ec4:#523c79:#20a5ba:#d9d9d9:#424242:#fb007a:#5fd7af:#f3e430:#20bbfc:#6855de:#4fb8cc:#f1f1f1"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
