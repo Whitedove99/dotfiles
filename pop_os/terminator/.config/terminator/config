@@ -1,23 +1,21 @@
 [global_config]
   title_hide_sizetext = True
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
-  title_font = "Source Code Pro Black, Bold Italic 72"
+  always_split_with_profile = True
+  title_font = Twitter Color Emoji Italic 16
 [keybindings]
+  copy = <Primary>c
+  paste = <Primary>v
 [profiles]
   [[default]]
     icon_bell = False
     cursor_shape = underline
-    cursor_color = "#aaaaaa"
-    font = "Source Code Pro Semibold, Semi-Bold 11"
+    cursor_color = "#729fcf"
+    cursor_color_fg = False
+    font = "Source Code Pro Semibold, Semi-Bold 12"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    use_system_font = False
-  [[AlienBlood]]
-    background_color = "#0f1610"
-    cursor_color = "#73fa91"
-    foreground_color = "#637d75"
-    palette = "#112616:#7f2b27:#2f7e25:#717f24:#2f6a7f:#47587f:#327f77:#647d75:#3c4812:#e08009:#18e000:#bde000:#00aae0:#0058e0:#00e0c4:#73fa91"
   [[AdventureTime]]
     cursor_color = "#aaaaaa"
   [[Afterglow]]
@@ -114,70 +112,9 @@
     scrollbar_position = hidden
     scrollback_infinite = True
     palette = "#2c2423:#f557a0:#a9ee55:#f5a255:#5ea2ec:#a957ec:#5eeea0:#918988:#918988:#f579b2:#bbee78:#f5b378:#81b3ec:#bb79ec:#81eeb2:#f5eeec"
-  [[Cobalt2]]
-    icon_bell = False
-    background_color = "#132738"
-    cursor_shape = underline
-    cursor_color = "#f0cc09"
-    font = "Source Code Pro Medium, Bold 10"
-    foreground_color = "#ffffff"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
-  [[Gruvbox Dark]]
-    icon_bell = False
-    background_color = "#1e1e1e"
-    cursor_shape = underline
-    cursor_color = "#bbbbbb"
-    font = "Source Code Pro Medium, Bold 10"
-    foreground_color = "#e6d4a3"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
-  [[FirefoxDev]]
-    icon_bell = False
-    background_color = "#0e1011"
-    cursor_shape = underline
-    cursor_color = "#708284"
-    font = "Source Code Pro Medium, Bold 10"
-    foreground_color = "#7c8fa4"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#002831:#e63853:#5eb83c:#a57706:#359ddf:#d75cff:#4b73a2:#dcdcdc:#204a87:#e1003f:#1d9000:#cd9409:#006fc0:#a200da:#005794:#e2e2e2"
-  [[Blazer]]
-    icon_bell = False
-    background_color = "#0d1926"
-    cursor_shape = underline
-    cursor_color = "#d9e6f2"
-    font = "Source Code Pro Medium, Bold 10"
-    foreground_color = "#d9e6f2"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#000000:#b87a7a:#7ab87a:#b8b87a:#7a7ab8:#b87ab8:#7ab8b8:#d9d9d9:#262626:#dbbdbd:#bddbbd:#dbdbbd:#bdbddb:#dbbddb:#bddbdb:#ffffff"
-    use_system_font = False
-  [[ForestBlue]]
-    icon_bell = False
-    background_color = "#051519"
-    cursor_shape = underline
-    cursor_color = "#9e9ecb"
-    font = "Source Code Pro Medium, Bold 10"
-    foreground_color = "#e2d8cd"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#333333:#f8818e:#92d3a2:#1a8e63:#8ed0ce:#5e468c:#31658c:#e2d8cd:#3d3d3d:#fb3d66:#6bb48d:#30c85a:#39a7a2:#7e62b3:#6096bf:#e2d8cd"
-    use_system_font = False
-  [[Aci]]
-    cursor_color = "#aaaaaa"
-  [[Duotone Dark]]
-    cursor_color = "#aaaaaa"
   [[PencilDark]]
     icon_bell = False
-    background_color = "#1e1f28"
+    background_color = "#1e1f29"
     cursor_shape = underline
     cursor_color = "#20bbfc"
     cursor_color_fg = False
@@ -195,4 +132,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = PencilDark
 [plugins]
