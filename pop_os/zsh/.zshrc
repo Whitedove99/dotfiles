@@ -101,3 +101,13 @@ autoload -U compinit && compinit
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# My alias
+alias ls='ls -a --color=auto'
+
+
+# Better ls colors
+eval $(dircolors -b $HOME/.dircolors)
+
+# Pywal
+export PATH="${PATH}:${HOME}/.local/bin/"

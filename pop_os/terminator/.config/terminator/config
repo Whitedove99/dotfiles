@@ -12,10 +12,11 @@
     cursor_shape = underline
     cursor_color = "#729fcf"
     cursor_color_fg = False
-    font = "Source Code Pro Semibold, Semi-Bold 12"
+    font = "Source Code Pro Semibold, Semi-Bold 11"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
+    use_system_font = False
   [[AdventureTime]]
     cursor_color = "#aaaaaa"
   [[Afterglow]]
