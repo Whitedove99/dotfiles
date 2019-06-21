@@ -1,5 +1,14 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Ellipsis dot file manager path export
+export PATH=/home/thomasswan/.ellipsis/bin:$PATH
+
+# Pywal export
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+# Gotop export
+
+export PATH=/snap/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/thomasswan/.oh-my-zsh"
@@ -97,17 +106,11 @@ autoload -U compinit && compinit
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# My alias
-alias ls='ls -a --color=auto'
-
+# My shortcuts
+# alias ls='ls -a --color=auto'
+alias ls='exa --long --header --git'
 
 # Better ls colors
-eval $(dircolors -b $HOME/.dircolors)
+# eval $(dircolors -b $HOME/.dircolors)
 
-# Pywal
-export PATH="${PATH}:${HOME}/.local/bin/"
