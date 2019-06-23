@@ -1,10 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 
 # Ellipsis dot file manager path export
-export PATH=/home/thomasswan/.ellipsis/bin:$PATH
+# export PATH=/home/thomasswan/.ellipsis/bin:$PATH
 
 # Pywal export
-export PATH="${PATH}:${HOME}/.local/bin/"
+# export PATH="${PATH}:${HOME}/.local/bin/"
 
 # Gotop export
 
@@ -77,7 +77,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autojump git zsh-syntax-highlighting zsh-autosuggestions zsh-completions history-substring-search)
+plugins=(autojump fasd git zsh-syntax-highlighting zsh-autosuggestions zsh-completions history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable autocompletion
 
-autoload -U compinit && compinit
+ # autoload -U compinit && compinit
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
