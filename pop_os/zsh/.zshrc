@@ -59,7 +59,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Replacing default ls with exa
-alias ls='exa --long --header --git'
+alias ls='exa --long --header --git --all'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
