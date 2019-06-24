@@ -1,29 +1,65 @@
-# If you come from bash you might have to change your $PATH.
+
+# ███████╗██╗  ██╗██████╗  ██████╗ ██████╗ ████████╗███████╗
+# ██╔════╝╚██╗██╔╝██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝
+# █████╗   ╚███╔╝ ██████╔╝██║   ██║██████╔╝   ██║   ███████╗
+# ██╔══╝   ██╔██╗ ██╔═══╝ ██║   ██║██╔══██╗   ██║   ╚════██║
+# ███████╗██╔╝ ██╗██║     ╚██████╔╝██║  ██║   ██║   ███████║
+# ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
+
 
 # Ellipsis dot file manager path export
-# export PATH=/home/thomasswan/.ellipsis/bin:$PATH
+export PATH=/home/thomasswan/.ellipsis/bin:$PATH
 
 # Pywal export
-# export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="${PATH}:${HOME}/.local/bin/"
 
-# Gotop export
-
-export PATH=/snap/bin:$PATH
+# Gotop export Edit: now using deb
+# export PATH=/snap/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/thomasswan/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+
+# ██████╗ ██████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗
+# ██╔═══██╗██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝
+# ██║   ██║██████╔╝   ██║   ██║██║   ██║██╔██╗ ██║███████╗
+# ██║   ██║██╔═══╝    ██║   ██║██║   ██║██║╚██╗██║╚════██║
+# ╚██████╔╝██║        ██║   ██║╚██████╔╝██║ ╚████║███████║
+# ╚═════╝ ╚═╝        ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+
+# Zsh theme
 ZSH_THEME="spaceship"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+# Enable autocompletion
+autoload -U compinit && compinit
+
+# Better ls colors
+# eval $(dircolors -b $HOME/.dircolors)
+
+
+# ██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
+# ██╔══██╗██║     ██║   ██║██╔════╝ ██║████╗  ██║██╔════╝
+# ██████╔╝██║     ██║   ██║██║  ███╗██║██╔██╗ ██║███████╗
+# ██╔═══╝ ██║     ██║   ██║██║   ██║██║██║╚██╗██║╚════██║
+# ██║     ███████╗╚██████╔╝╚██████╔╝██║██║ ╚████║███████║
+# ╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
+
+# Oh-My-Zsh installed plugins
+plugins=(fasd git zsh-syntax-highlighting zsh-autosuggestions zsh-completions history-substring-search)
+
+source $ZSH/oh-my-zsh.sh
+
+
+# █████╗ ██╗     ██╗ █████╗ ███████╗███████╗███████╗
+# ██╔══██╗██║     ██║██╔══██╗██╔════╝██╔════╝██╔════╝
+# ███████║██║     ██║███████║███████╗█████╗  ███████╗
+# ██╔══██║██║     ██║██╔══██║╚════██║██╔══╝  ╚════██║
+# ██║  ██║███████╗██║██║  ██║███████║███████╗███████║
+
+
+# Replacing default ls with exa
+alias ls='exa --long --header --git'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -77,15 +113,6 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autojump fasd git zsh-syntax-highlighting zsh-autosuggestions zsh-completions history-substring-search)
-
-source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# Enable autocompletion
-
- # autoload -U compinit && compinit
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -106,11 +133,3 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-
-# My shortcuts
-# alias ls='ls -a --color=auto'
-alias ls='exa --long --header --git'
-
-# Better ls colors
-# eval $(dircolors -b $HOME/.dircolors)
-
