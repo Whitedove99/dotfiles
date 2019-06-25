@@ -13,8 +13,8 @@ export PATH=/home/thomasswan/.ellipsis/bin:$PATH
 # Pywal export
 export PATH="${PATH}:${HOME}/.local/bin/"
 
-# Gotop export Edit: now using deb
-# export PATH=/snap/bin:$PATH
+# Snap export
+export PATH=/snap/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/thomasswan/.oh-my-zsh"
