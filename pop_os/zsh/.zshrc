@@ -1,10 +1,17 @@
 
+source <(antibody init)
+
 # ███████╗██╗  ██╗██████╗  ██████╗ ██████╗ ████████╗███████╗
 # ██╔════╝╚██╗██╔╝██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝
 # █████╗   ╚███╔╝ ██████╔╝██║   ██║██████╔╝   ██║   ███████╗
 # ██╔══╝   ██╔██╗ ██╔═══╝ ██║   ██║██╔══██╗   ██║   ╚════██║
 # ███████╗██╔╝ ██╗██║     ╚██████╔╝██║  ██║   ██║   ███████║
 # ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
+
+# autoload bashcompinit
+# bashcompinit
+# export -f _have() { which $@ >/dev/null }
+# source /usr/share/bash-completion/completions/lxc
 
 
 # Ellipsis dot file manager path export
@@ -32,7 +39,7 @@ export ZSH="/home/thomasswan/.oh-my-zsh"
 ZSH_THEME="spaceship"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Enable autocompletion
 autoload -U compinit && compinit
@@ -48,8 +55,15 @@ autoload -U compinit && compinit
 # ██║     ███████╗╚██████╔╝╚██████╔╝██║██║ ╚████║███████║
 # ╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
 
-# Oh-My-Zsh installed plugins
+# Oh-My-Zsh installed plugins ##
 plugins=(fasd git zsh-syntax-highlighting zsh-autosuggestions zsh-completions history-substring-search)
+
+## Antibody plugins ##
+# Oh-my-zsh framework
+antibody bundle robbyrussell/oh-my-zsh
+
+# Lxd container autocompletions
+antibody bundle endaaman/lxd-completion-zsh
 
 source $ZSH/oh-my-zsh.sh
 
